@@ -1,6 +1,6 @@
 <?php 
 
-class Conection{
+class Connection{
     private $conect;
 
     public function __construct(){

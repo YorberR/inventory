@@ -14,7 +14,7 @@
                     <nav class="menu">
                         <ul>
                             <li><a href="#">Inicio</a></li>
-                            <li><a href="">Inventario</a></li>
+                            <li><a href="inventory.php">Inventario</a></li>
                             <li><a href="">Añadir producto</a></li>
                         </ul>
                     </nav>
