@@ -1,3 +1,3 @@
 <?php 
 
-require('controller/C_index.php');
+require('controller/IndexController.php');

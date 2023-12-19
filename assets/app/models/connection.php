@@ -18,4 +18,16 @@ class Connection{
         }
         return $data;
     }
+
+    public function Products($name){
+        $petition = $this->conect->query("SELECT * FROM products WHERE name = '$name'");
+        $data = [];
+        $i = 0;
+        
+        while($row = $petition->fetch_assoc()){
+            $data[$i] = $row;
+            $i++;
+        }
+        return $data;
+    }
 }

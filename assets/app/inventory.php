@@ -1,3 +1,3 @@
 <?php 
 
-require('controller/C_products.php');
+require('controller/ProductsController.php');
