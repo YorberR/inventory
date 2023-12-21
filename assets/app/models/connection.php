@@ -44,7 +44,10 @@ class Connection{
     }
 
     public function UpdateProduct($id, $name, $description, $price){
-        $this->conect->query("UPDATE products SET name = '$name', description = '$description', price = '$price' WHERE id = '$id'");
+        $petition = $this->conect->query("UPDATE products SET name = '$name', description = '$description', price = '$price' WHERE id = '$id'");
+    }
 
+    public function InsertProduct($name, $description, $price){
+        $petition = $this->conect->query("INSERT INTO products(name, description, price) VALUES('$name', '$description', '$price')");
     }
 }
