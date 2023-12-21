@@ -50,4 +50,8 @@ class Connection{
     public function InsertProduct($name, $description, $price){
         $petition = $this->conect->query("INSERT INTO products(name, description, price) VALUES('$name', '$description', '$price')");
     }
+
+    public function DeleteProduct($id){
+        $petition = $this->conect->query("DELETE FROM products WHERE id = '$id'");
+    }
 }

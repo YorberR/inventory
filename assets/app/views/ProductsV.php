@@ -11,7 +11,7 @@
             <nav>
                 <ul>
                     <li><a href="index.php">Inicio</a></li>
-                    <li><a href="">Añadir productos</a></li>
+                    <li><a href="Añadir.php">Añadir productos</a></li>
                 </ul>
             </nav>
             <div class="table">
