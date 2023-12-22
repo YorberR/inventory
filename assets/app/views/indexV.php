@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
     <title>Inicio</title>
 </head>
 <body>
@@ -10,7 +11,7 @@
         <div class="subcont">
 
             <header>
-                <div class="sombra">
+                <div class="shadow">
                     <nav class="menu">
                         <ul>
                             <li><a href="#">Inicio</a></li>
@@ -19,7 +20,7 @@
                         </ul>
                     </nav>
 
-                    <h1 class="title">la mejor tienda</h1>
+                    <h1 class="title">El mejor inventario</h1>
                 </div>
             </header>
         </div>

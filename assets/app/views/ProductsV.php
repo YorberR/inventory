@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/products.css">
     <title>Inventario</title>
 </head>
 <body>
@@ -16,14 +17,15 @@
             </nav>
             <div class="table">
                 <div class="search">
-                    <a href="search.php"><button class="searchbtn">Editar Producto</button></a>
+                    <a href="search.php" class="link"><button class="searchbtn">Editar Producto</button></a>
                 </div>
+                <h1>Productos disponibles</h1>
                 <table>
                     <thead>
                         <tr>
-                            <td>Nombre</td>
-                            <td>Descripción</td>
-                            <td>Precio</td>
+                            <td class="title">Nombre</td>
+                            <td class="title">Descripción</td>
+                            <td class="title">Precio</td>
                         </tr>
                     </thead>
                     <tbody>

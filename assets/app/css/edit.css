@@ -1,0 +1,113 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Containers */
+
+.cont{
+    width: 100%;
+    height: 100%;
+}
+
+.subcont{
+    width: 100%;
+    height: 100%;
+}
+
+/* menu */
+
+nav{
+    width: 100%;
+    height: 70px;
+    background-color: black;
+}
+
+ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+li{
+    padding-top: 20px;
+    padding-left: 10px; 
+    padding-right: 10px;
+    height: 45px;
+    margin-left: 30px;
+    list-style: none;
+    font-size: 18px;
+    transition: linear 0.5s;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+} 
+
+/* table */
+
+h1{
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 30px;
+    padding-top: 10%;
+}
+
+.table{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+table{
+    margin-left: 10%;
+    margin-top: 5%;
+    width: 80%;
+    height: 100%;
+    border-collapse: collapse;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px black;
+
+}
+
+td{
+    border-right: 2px solid rgb(128, 128, 128, 0.2);
+    border-bottom: 2px solid rgb(128, 128, 128, 0.2);
+}
+
+.title{
+    border-right: none;
+    box-shadow: 2px 2px 2px black;
+    padding: 10px;
+    font-weight: bold;
+}
+
+input{
+    width: 98%;
+    height: 97%;
+    border: none;
+    outline: none;
+    background: none;
+    padding: 5px;
+}
+
+.dataU{
+    border-right: none;
+    box-shadow: 2px 2px 2px black;
+}
+
+.data{
+    height: 70px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.update{
+    width: 70%;
+    margin-left: 30px;
+    height: 90%;
+}
