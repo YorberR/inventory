@@ -54,11 +54,7 @@ li{
     height: 40px;
     margin-left: 30px;
     list-style: none;
-    transition: linear0.2s;
-    -webkit-transition: linear0.2s;
-    -moz-transition: linear0.2s;
-    -ms-transition: linear0.2s;
-    -o-transition: linear0.2s;
+    transition: linear 0.2s;
 }
 
 a{
