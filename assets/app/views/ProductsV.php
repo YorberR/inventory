@@ -33,7 +33,7 @@
                             foreach($products as $product){
                                 echo "<tr>";
                                 echo "<td>";
-                                echo $product['name'];                                echo $product['name'];
+                                echo $product['name'];                            
                                 echo "</td>";
                                 echo "<td>";
                                 echo $product['description'];
