@@ -13,7 +13,7 @@
                 <ul>
                     <li><a href="../index.php">Inicio</a></li>
                     <li><a href="../inventory.php">Inventario</a></li>
-                    <li><a href="../Añadir.php">Añadir producto</a></li>
+                    <li><a href="../add.php">Añadir producto</a></li>
                 </ul>
             </nav>
             <div class="table">
