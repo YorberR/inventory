@@ -3,8 +3,21 @@
 class Connection{
     private $conect;
 
-    public function __construct(){
-        $this->conect = new mysqli("localhost", "root", "", "inventory");
+    public function __construct() {
+        $db_url = parse_url(getenv('DATABASE_URL'));
+
+        $db_host = $db_url['kil9uzd3tgem3naa.cbetxkdyhwsb.us-east-1.rds.amazonaws.com'];
+        $db_name = substr($db_url['uv43fnzgieus75of'], 1);
+        $db_user = $db_url['uv43fnzgieus75of'];
+        $db_password = $db_url['b5hp471d5mj0l5i7'];
+
+        try {
+            $this->conect = new PDO("pgsql:host=$db_host;dbname=$db_name", $db_user, $db_password);
+            // Set the PDO error mode to exception
+            $this->conect->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+        } catch(PDOException $e) {
+            echo 'Connection failed: ' . $e->getMessage();
+        }
     }
 
     public function getProducts(){
