@@ -3,11 +3,8 @@
 class Connection{
     private $conect;
 
-    public function __construct() {
-        $url = getenv('JAWSDB_URL');
-        $db = parse_url($url);
-
-        $this->conect = new mysqli($db['Host'], $db['Username'], $db['Password'], substr($db['path'], 1));
+    public function __construct(){
+        $this->conect = new mysqli("localhost", "root", "", "inventory");
     }
 
     public function getProducts(){

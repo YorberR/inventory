@@ -36,7 +36,7 @@ Este sistema tiene como objetivo gestionar de manera eficiente el inventario de 
 
 ## Uso
 
-    Acceso: Accede al sistema a través de tu navegador, ingresando la [URL](https://inventory-a7ca41dab0bd.herokuapp.com) correspondiente 
+    Acceso: Accede al sistema a través de tu navegador, ingresando la [URL] correspondiente 
     Funcionalidades:
         Agregar, editar y eliminar productos.
         Realizar búsquedas de productos.
