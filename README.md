@@ -1,21 +1,21 @@
-## Inventory
+# Inventory
 
 Este sistema tiene como objetivo gestionar de manera eficiente el inventario de [Tu Empresa/Proyecto]. Permite realizar un seguimiento detallado de los productos, categorías y movimientos de stock.
 
-# Tecnologías Utilizadas
+## Tecnologías Utilizadas
 
     Lenguaje de programación: PHP
     Base de datos: MySQL
     Otras tecnologías: CSS
 
-# Estructura del Proyecto
+## Estructura del Proyecto
 
     controllers/: Contiene la lógica de control de las acciones del usuario.
     models/: Contiene la coneccion a la base de datos
     views/: Contiene las vistas para la interfaz de usuario.
     css: Contiene los archivos de estilos de la pagina
 
-# Instalación
+## Instalación
 
     Requisitos:
         Servidor web con PHP (Apache, Nginx)
@@ -34,7 +34,7 @@ Este sistema tiene como objetivo gestionar de manera eficiente el inventario de 
     Iniciar el servidor web:
         Ejecutar el servidor web desde tu directorio raíz.
 
-# Uso
+## Uso
 
     Acceso: Accede al sistema a través de tu navegador, ingresando la [URL](https://inventory-a7ca41dab0bd.herokuapp.com) correspondiente 
     Funcionalidades:
@@ -42,15 +42,15 @@ Este sistema tiene como objetivo gestionar de manera eficiente el inventario de 
         Realizar búsquedas de productos.
         Generar reportes de inventario.
 
-# Contribuciones
+## Contribuciones
 
-Si deseas contribuir a este proyecto, por favor sigue estos pasos:
+    Si deseas contribuir a este proyecto, por favor sigue estos pasos:
 
-    Forkea el repositorio.
-    Crea una nueva rama para tus cambios.
-    Realiza tus cambios y haz commit.
-    Envía una Pull Request.
+        Forkea el repositorio.
+        Crea una nueva rama para tus cambios.
+        Realiza tus cambios y haz commit.
+        Envía una Pull Request.
 
-# Licencia
+## Licencia
 
-Este proyecto está licenciado bajo la licencia MIT.
+    Este proyecto está licenciado bajo la licencia MIT.

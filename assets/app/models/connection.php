@@ -7,7 +7,7 @@ class Connection{
         $url = getenv('JAWSDB_URL');
         $db = parse_url($url);
 
-        $this->conect = new mysqli($db['host'], $db['user'], $db['pass'], substr($db['path'], 1));
+        $this->conect = new mysqli($db['Host'], $db['Username'], $db['Password'], substr($db['path'], 1));
     }
 
     public function getProducts(){
